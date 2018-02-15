@@ -27,6 +27,10 @@ else
 {
 	cout<<yr<<"is not a leap year";
 }
+	if(!cin)
+	{
+		cout<<"invalid input";
+	}
 }
 
 
