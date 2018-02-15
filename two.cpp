@@ -1,20 +1,21 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-int a,n,sum=0,i,count;
+int a,n,sum=0,i;
 cout<<"enter the number :";
-cin>>a,n;
+cin>>a>>n;
 for(i=1;i<=a;++i)
 {
-count++;
-cout<<count;
- for(i=1;i<=n;i++)
+cout<<i<<"\n";
+}
+
+ for(i=0;i<=n;i++)
  {
  	sum=sum+i;
+ 
  }
- cout<<sum;
-}
+	 cout<<"sum="<<sum;
+
 if(!cin)
 {
 	cout<<"invalid input";
