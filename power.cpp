@@ -1,17 +1,16 @@
 #include <iostream>
+#include<math.h>
 using namespace std;
 
 int main() {
-int n,p,value=1,i;
-cout<<"enter the number :\n";
-cin>>n;
-cout<<"Enter the power:\n";
-cin>>p;
-for(i=p;i>0;i--)
-{
-value=value*n;
+int b,e,result;
+cout<<"enter the base :\n";
+cin>>b;
+cout<<"Enter the exponent:\n";
+cin>>e;
+result=pow(b,e);
+cout<<result;
 }
-cout<<value;
 if(!cin)
 {
 	cout<<"invalid input";
