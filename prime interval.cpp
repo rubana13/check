@@ -2,10 +2,24 @@
 using namespace std;
 
 int main() {
-	int num,n,m,cout=0;
+	int num,n,m,i,count;
 	cout<<"Enter the starting no:";
-	cin>>n;
+	cin>>m;
 	cout<<"Enter the ending no:";
-	cin>>q;
-	for(num=m;num<=n;num++;)
+	cin>>n;
+	for(num=m;num<=n;num++)
+	{count=0;		
+	for(i=2;i<=num/2;i++)
+{
+	if(num%i==0)
+	{
+		count++;
+		break;
+}
+	
+}
+
+		if(count==0 && num!= 1)
+            cout<<num;
+	}
 }
