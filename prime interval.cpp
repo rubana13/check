@@ -2,18 +2,10 @@
 using namespace std;
 
 int main() {
-	int n,q;
+	int num,n,m,cout=0;
 	cout<<"Enter the starting no:";
 	cin>>n;
 	cout<<"Enter the ending no:";
 	cin>>q;
-	while(n<q)
-	{
-	if(n%2==0)
-	{
-		cout<<n<<endl;
-	}
-		n=n+1;
-	}
-                
+	for(num=m;num<=n;num++;)
 }
