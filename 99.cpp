@@ -13,6 +13,6 @@ if(w>=z)
   }
   else
   {
-      cout<<"Invalid input or " <<w<< " cannot be divisible by " <<z;
+      cout<<"Invalid input or modulus cannot be performed";
   }
 }
