@@ -4,8 +4,11 @@ using namespace std;
 
 int main()
 {
-double n,result;
+double n;
+int result;
 cin>>n;
-     result=floor(n); 
-     cout<<result;
+
+    result=ceilf(n); 
+    cout<<result;
+
 }
