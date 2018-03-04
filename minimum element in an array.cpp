@@ -21,7 +21,7 @@ for(i = 1;i < n; ++i)
       if(arr[0] >arr[i])
            arr[0] = arr[i];
     }
-    cout << "Largest element = " << arr[0];
+    cout << "Minimum element = " << arr[0];
 
 
     return 0;
