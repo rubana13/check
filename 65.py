@@ -1,1 +1,3 @@
-print("Hello world")
+string=input("Enter the string:")
+print(string)
+
