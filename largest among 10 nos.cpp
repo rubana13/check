@@ -16,7 +16,7 @@ int main()
 
 for(i = 1;i < 10; ++i)
     {
-      if(arr[0] < arr[i])
+      if(arr[0]>arr[i])
            arr[0] = arr[i];
     }
     cout << "Largest element = " << arr[0];
