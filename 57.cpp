@@ -3,19 +3,19 @@
 using namespace std;
 
 int main() {
-	int x;
-	int y;
-	cout<<"X="<<endl;
-	cout<<"Y="<<endl;
-	cin>>x>>y;
-	int z;
-	if(x,y<=100000)
+	int a;
+	int b;
+	cout<<"A="<<endl;
+	cout<<"B="<<endl;
+	cin>>a>>b;
+	int c;
+	if(a,b<=100000)
 	{
-cout<<"Before swapping:"<<x<<" "<<y<<endl;
-z=x;
-x=y;
-y=z;
-	cout<<"After swapping:"<<x<<" "<<y;
+cout<<"Before swapping:"<<a<<" "<<b<<endl;
+c=a;
+a=b;
+b=c;
+	cout<<"After swapping:"<<a<<" "<<b;
 	}
 	else{
 	    cout<<"Invalid input";
