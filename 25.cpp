@@ -7,7 +7,8 @@ int main(){
     cout<<"Enter the number of elements into the array"<<endl;
     for(int i=0;i<m;i++){
         cin>>n[i];
-    }
+    }if(m<=1000)
+    {
     for(int i=0;i<m;i++){
         for(int j=i+1;j<m;j++){
             if(n[i]>n[j]){
@@ -17,10 +18,18 @@ int main(){
             }
         }
     }
+    
+    
     cout<<"Median element:";
     if(m % 2 == 0){
         cout<<n[(m/2)-1];
     }else{
         cout<<n[m/2];
     }
+    }
+    else{
+        cout<<"Invalid input";
+        
+    }
+    
 }
