@@ -20,5 +20,9 @@ int main()
             cout<<" "<<ans;
         }
     }
+      if(!cin)
+    {
+        cout<<"Invalid input";
+    }
     return 0;
 }
