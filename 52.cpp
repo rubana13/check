@@ -6,6 +6,8 @@ int main()
     int a;
     cout<<"Enter a number:"<<endl;
     cin>>a;
+    if(a>=1&&a<=10)
+    {
     switch(a){
         case 1:
         cout<<"One";
@@ -40,6 +42,10 @@ int main()
         default:
         cout<<"Enter a number between 1 and 10";
     }
-     
+    }
+    else
+     {
+         cout<<"Invalid input";
+     }
     return 0;
 }
