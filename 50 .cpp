@@ -1,25 +1,25 @@
 #include <iostream>
-#include <math.h>
-
 using namespace std;
 
 int main()
 {
-    int i,result, count = 0;
+    int num,tempNum,count;
     cout<<"Enter a number :";
-    cin>>i;
-    for(int j = 0;j <= i;j++){
-        result = pow(2,j);
-        if(result == i){
-        count= 1;
-        }else{
-            count = 0;
+    cin>>num;
+       tempNum=num;
+   count=0;
+   while(tempNum!=1)
+    {
+        if(tempNum%2!=0){
+           count=1;
+            break;
         }
+        tempNum=tempNum/2;
     }
-    if(count == 1){
-        cout<<"Its a power of 2";
-    }else{
-        cout<<"Its not a power of 2";
-    }
-    return 0;
+  
+    if(count=0)
+        cout<<"It is a power of 2.";
+    else
+       cout<<"It is not the power of 2.";
+      
 }
