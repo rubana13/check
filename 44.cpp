@@ -9,7 +9,7 @@ int main()
     cin>>n;
     if(n>= 1 && n <=10){
         cout<<"yes";
-    }else if(n<=11)
+    }else if((n<=11)||(n>=11))
     {
         cout<<"no";
     }
