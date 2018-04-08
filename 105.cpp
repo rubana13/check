@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-int n;
-	cin>>n;
-	cout<<char(n+64);
+int number;
+	cin>>number;
+	cout<<char(number+64);
 }
