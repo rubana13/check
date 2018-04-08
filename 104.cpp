@@ -12,3 +12,7 @@ z=z*x;
 }
 	cout<<"x^Y=" << z;
 }
+if(!cin)
+{
+	cout<<"Invalid input";
+}
